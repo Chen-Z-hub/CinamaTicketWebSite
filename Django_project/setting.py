@@ -1,0 +1,11 @@
+# 数据库信息
+HOSTNAME = '192.168.164.132'
+PORT = 3306
+USERNAME = 'root'
+PASSWORD = '123'
+DATABASE = 'cinema'
+# 数据库名称可以更改
+DB_URI = f"mysql+pymysql://{USERNAME}:{PASSWORD}@{HOSTNAME}:{PORT}/{DATABASE}?charset=utf8mb4"
+SQLALCHEMY_DATABASE_URI = DB_URI
+
+SECRET_KEY = "KSOA;DKSAOP,;PSA"
